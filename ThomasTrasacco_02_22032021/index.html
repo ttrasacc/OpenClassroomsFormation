@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+    <script src="https://kit.fontawesome.com/fc82092fd5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Reservia - planifiez vos vacances</title>
 </head>
@@ -10,109 +11,176 @@
         <div id="site_logo">
             <img src="resources/images/logo/Reservia.svg" />
         </div>
-        <div id="anchors">
-            <a href="#lodging">
-                <h3>Hébergements</h3>
-            </a>
-            <a href="#activities">
-                <h3>Activités</h3>
-            </a>
-        </div>
-        <div id="registration">
-            <a href="">
-                <h3>s'inscrire</h3>
-            </a>
-        </div>
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="#lodging">
+                        <h3>Hébergements</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#activities">
+                        <h3>Activités</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h3 class="blue bold">S'inscrire</h3>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <section>
         <div id="description">
             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-            <h3>En plein centre-ville ou en pleine nature</h3>
+            <h3 class="light">En plein centre-ville ou en pleine nature</h3>
         </div>
-        <div id="research bar">
-            <button><img src="" alt="icône 'localisation'" /></button>
+        <div id="research">
+            <div id="localisation">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
             <input type="search" id="search_town" value="Marseille, France" />
             <button>Rechercher</button>
         </div>
-        
+    </section>
+    <section>    
         <nav id="filters">
-            <h3>Filtres</h3>
-            <div class="filter">
-                <img src="" alt="icône 'Économique'" />
-                <h3>Économique</h3>
+            <div class="title">
+                <h3>Filtres</h3>
             </div>
             <div class="filter">
-                <img src="" alt="icône 'Familial'" />
-                <h3>Familial</h3>
+                <div class="filter_icon">
+                    <i class="fas fa-money-bill-wave"></i>
+                </div>
+                <div class="filter_text">
+                    <h3 class="bold">Économique</h3>
+                </div>
             </div>
             <div class="filter">
-                <img src="" alt="icône 'Romantique'" />
-                <h3>Romantique</h3>
+                <div class="filter_icon">
+                    <i class="fas fa-child"></i>
+                </div>
+                <div class="filter_text">
+                    <h3 class="bold">Familial</h3>
+                </div>
             </div>
             <div class="filter">
-                <img src="" alt="icône 'Animaux'" />
-                <h3>Animaux autorisés</h3>
+                <div class="filter_icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="filter_text">
+                    <h3 class="bold">Romantique</h3>
+                </div>
+            </div>
+            <div class="filter">
+                <div class="filter_icon">
+                    <i class="fas fa-dog"></i>
+                </div>
+                <div class="filter_text">
+                    <h3 class="bold">Animaux autorisés</h3>
+                </div>
             </div>
         </nav>
         <div id="information">
-            <img src="" alt="icône 'infos'" />
-            <h4>Plus de 500 logments sont disponibles dans cette ville</h4>
+            <i class="fas fa-info-circle reverse"></i>
+            <h3 class="light">Plus de 500 logments sont disponibles dans cette ville</h4>
         </div>
-
     </section>
     <section id="lodging">
         <!--hébergement-->
-        <a name="lodging"></a>
         <header>
             <h2>Hébergements à Marseille</h2>
         </header>
         <ul>
             <li>
-                <div class="lodging_suggestion">
-                    <img src="" alt="" />
-                    <h3>Auberge La Cannebière</h3>
-                    <h4>Nuit à partir de <span>25€</span></h4>
+                <div class="lodging_suggestion" onclick="">
+                    <div class="lodging_image" id="id_1"></div>
+                    <div class="lodging_description">
+                        <h3>Auberge La Cannebière</h3>
+                    </div>
+                    <div class="lodging_price">
+                        <h4>Nuit à partir de <span>25€</span></h4>
+                    </div>
                     <!-- Comment on fait les étoiles de notation ? -->
+                    <div class="ratings">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                    </div>
                 </div>
             </li>
             <li>
-                <div class="lodging_suggestion">
-                    <img src="" alt="" />
-                    <h3>Auberge La Cannebière</h3>
-                    <h4>Nuit à partir de <span>25€</span></h4>
+                <div class="lodging_suggestion" onclick="">
+                    <div class="lodging_image" id="id_2"></div>
+                    <div class="lodging_description">
+                        <h3>Auberge La Cannebière</h3>
+                    </div>
+                    <div class="lodging_price">
+                        <h4>Nuit à partir de <span>25€</span></h4>
+                    </div>
                     <!-- Comment on fait les étoiles de notation ? -->
+                    <div class="ratings">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i>
+                    </div>
                 </div>
             </li>
             <li>
-                <div class="lodging_suggestion">
-                    <img src="" alt="" />
-                    <h3>Auberge La Cannebière</h3>
-                    <h4>Nuit à partir de <span>25€</span></h4>
+                <div class="lodging_suggestion" onclick="">
+                    <div class="lodging_image" id="id_3"></div>
+                    <div class="lodging_description">
+                        <h3>Auberge La Cannebière</h3>
+                    </div>
+                    <div class="lodging_price">
+                        <h4>Nuit à partir de <span>25€</span></h4>
+                    </div>
                     <!-- Comment on fait les étoiles de notation ? -->
+                    <div class="ratings">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="far fa-star"></i>
+                    </div>
                 </div>
             </li>
             <li>
-                <div class="lodging_suggestion">
-                    <img src="" alt="" />
-                    <h3>Auberge La Cannebière</h3>
-                    <h4>Nuit à partir de <span>25€</span></h4>
+                <div class="lodging_suggestion" onclick="">
+                    <div class="lodging_image" id="id_4"></div>
+                    <div class="lodging_description">
+                        <h3>Auberge La Cannebière</h3>
+                    </div>
+                    <div class="lodging_price">
+                        <h4>Nuit à partir de <span>25€</span></h4>
+                    </div>
                     <!-- Comment on fait les étoiles de notation ? -->
+                    <div class="ratings">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i
+                            class="far fa-star"></i>
+                    </div>
                 </div>
             </li>
             <li>
-                <div class="lodging_suggestion">
-                    <img src="" alt="" />
-                    <h3>Auberge La Cannebière</h3>
-                    <h4>Nuit à partir de <span>25€</span></h4>
+                <div class="lodging_suggestion" onclick="">
+                    <div class="lodging_image" id="id_5"></div>
+                    <div class="lodging_description">
+                        <h3>Auberge La Cannebière</h3>
+                    </div>
+                    <div class="lodging_price">
+                        <h4>Nuit à partir de <span>25€</span></h4>
+                    </div>
                     <!-- Comment on fait les étoiles de notation ? -->
+                    <div class="ratings">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="far fa-star"></i>
+                    </div>
                 </div>
             </li>
             <li>
-                <div class="lodging_suggestion">
-                    <img src="" alt="" />
-                    <h3>Auberge La Cannebière</h3>
-                    <h4>Nuit à partir de <span>25€</span></h4>
+                <div class="lodging_suggestion" onclick="">
+                    <div class="lodging_image" id="id_6"></div>
+                    <div class="lodging_description"><h3>Auberge La Cannebière</h3></div>
+                    <div class="lodging_price"><h4>Nuit à partir de <span>25€</span></h4></div>
                     <!-- Comment on fait les étoiles de notation ? -->
+                    <div class="ratings">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
                 </div>
             </li>
         </ul>
