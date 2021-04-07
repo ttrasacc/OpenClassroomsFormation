@@ -15,17 +15,17 @@
             <ul>
                 <li>
                     <a href="#lodging">
-                        <h3>Hébergements</h3>
+                        <h2>Hébergements</h2>
                     </a>
                 </li>
                 <li>
                     <a href="#activities">
-                        <h3>Activités</h3>
+                        <h2>Activités</h2>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <h3 class="blue bold">S'inscrire</h3>
+                        <h2 class="blue bold">S'inscrire</h2>
                     </a>
                 </li>
             </ul>
@@ -44,9 +44,9 @@
             <button>Rechercher</button>
         </div>
     </section>
-    <section>    
-        <nav id="filters">
-            <div class="title">
+    <div>    
+        <div id="filters">
+            <div class="title_filters">
                 <h3>Filtres</h3>
             </div>
             <div class="filter">
@@ -81,180 +81,237 @@
                     <h3 class="bold">Animaux autorisés</h3>
                 </div>
             </div>
-        </nav>
+        </div>
         <div id="information">
-            <i class="fas fa-info-circle reverse"></i>
-            <h3 class="light">Plus de 500 logments sont disponibles dans cette ville</h4>
+            <div>
+                <i class="fas fa-info-circle reverse"></i>
+            </div>
+            <div>
+                <h3 class="light">Plus de 500 logments sont disponibles dans cette ville</h3>
+            </div>
         </div>
-    </section>
-    <section id="lodging">
-        <!--hébergement-->
-        <header>
-            <h2>Hébergements à Marseille</h2>
-        </header>
-        <ul>
-            <li>
-                <div class="lodging_suggestion" onclick="">
-                    <div class="lodging_image" id="id_1"></div>
-                    <div class="lodging_description">
-                        <h3>Auberge La Cannebière</h3>
+    </div>
+    <div id="main_section">
+        <section id="lodging">
+            <!--hébergement-->
+            <header>
+                <h2>Hébergements à Marseille</h2>
+            </header>
+            <ul>
+                <li>
+                    <div class="lodging_suggestion" onclick="">
+                        <div class="lodging_image" id="id_1"></div>
+                        <div class="lodging_description">
+                            <h3>Auberge La Cannebière</h3>
+                        </div>
+                        <div class="lodging_price">
+                            <h4>Nuit à partir de <span>25€</span></h4>
+                        </div>
+                        <!-- Comment on fait les étoiles de notation ? -->
+                        <div class="ratings">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                        </div>
                     </div>
-                    <div class="lodging_price">
-                        <h4>Nuit à partir de <span>25€</span></h4>
+                </li>
+                <li>
+                    <div class="lodging_suggestion" onclick="">
+                        <div class="lodging_image" id="id_2"></div>
+                        <div class="lodging_description">
+                            <h3>Auberge La Cannebière</h3>
+                        </div>
+                        <div class="lodging_price">
+                            <h4>Nuit à partir de <span>25€</span></h4>
+                        </div>
+                        <!-- Comment on fait les étoiles de notation ? -->
+                        <div class="ratings">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i>
+                        </div>
                     </div>
-                    <!-- Comment on fait les étoiles de notation ? -->
-                    <div class="ratings">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                </li>
+                <li>
+                    <div class="lodging_suggestion" onclick="">
+                        <div class="lodging_image" id="id_3"></div>
+                        <div class="lodging_description">
+                            <h3>Auberge La Cannebière</h3>
+                        </div>
+                        <div class="lodging_price">
+                            <h4>Nuit à partir de <span>25€</span></h4>
+                        </div>
+                        <!-- Comment on fait les étoiles de notation ? -->
+                        <div class="ratings">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="far fa-star"></i>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li>
-                <div class="lodging_suggestion" onclick="">
-                    <div class="lodging_image" id="id_2"></div>
-                    <div class="lodging_description">
-                        <h3>Auberge La Cannebière</h3>
+                </li>
+                <li>
+                    <div class="lodging_suggestion" onclick="">
+                        <div class="lodging_image" id="id_4"></div>
+                        <div class="lodging_description">
+                            <h3>Auberge La Cannebière</h3>
+                        </div>
+                        <div class="lodging_price">
+                            <h4>Nuit à partir de <span>25€</span></h4>
+                        </div>
+                        <!-- Comment on fait les étoiles de notation ? -->
+                        <div class="ratings">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i
+                                class="far fa-star"></i>
+                        </div>
                     </div>
-                    <div class="lodging_price">
-                        <h4>Nuit à partir de <span>25€</span></h4>
+                </li>
+                <li>
+                    <div class="lodging_suggestion" onclick="">
+                        <div class="lodging_image" id="id_5"></div>
+                        <div class="lodging_description">
+                            <h3>Auberge La Cannebière</h3>
+                        </div>
+                        <div class="lodging_price">
+                            <h4>Nuit à partir de <span>25€</span></h4>
+                        </div>
+                        <!-- Comment on fait les étoiles de notation ? -->
+                        <div class="ratings">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="far fa-star"></i>
+                        </div>
                     </div>
-                    <!-- Comment on fait les étoiles de notation ? -->
-                    <div class="ratings">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                            class="fas fa-star"></i>
+                </li>
+                <li>
+                    <div class="lodging_suggestion" onclick="">
+                        <div class="lodging_image" id="id_6"></div>
+                        <div class="lodging_description"><h3>Auberge La Cannebière</h3></div>
+                        <div class="lodging_price"><h4>Nuit à partir de <span>25€</span></h4></div>
+                        <!-- Comment on fait les étoiles de notation ? -->
+                        <div class="ratings">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li>
-                <div class="lodging_suggestion" onclick="">
-                    <div class="lodging_image" id="id_3"></div>
-                    <div class="lodging_description">
-                        <h3>Auberge La Cannebière</h3>
+                </li>
+            </ul>
+            <div id="afficher_plus">
+                <a href="">
+                    <h3 class="bold">Afficher plus</h3>
+                </a>
+            </div>
+        </section>
+        <section id="most_popular">
+            <header>
+                <h2>Les plus populaires</h2>
+                <a href=""><img src="" alt="" /></a>
+            </header>
+            <ul>
+                <li>
+                    <div class="popular">
+                        <div class="popular_image" id="id_7"></div>
+                        <div class="popular_text">
+                            <div>
+                                <h2>Hôtel Le soleil du matin</h2>
+                                <h3>Nuit à partir de <span>128€</span></h3>
+                            </div>
+                            <!-- Comment on fait les étoiles de notation ? -->
+                            <div class="popular_ratings">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i>
+                            </div>
+                        </div>
                     </div>
-                    <div class="lodging_price">
-                        <h4>Nuit à partir de <span>25€</span></h4>
+                </li>
+                <li>
+                    <div class="popular">
+                        <div class="popular_image" id="id_8"></div>
+                        <div class="popular_text">
+                            <div>
+                                <h2>Au coeur de l'eau Chambre d'hôtes</h2>
+                                <h3>Nuit à partir de <span>71€</span></h3>
+                            </div>
+                            <!-- Comment on fait les étoiles de notation ? -->
+                            <div class="popular_ratings">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="far fa-star"></i>
+                            </div>
+                        </div>
+
                     </div>
-                    <!-- Comment on fait les étoiles de notation ? -->
-                    <div class="ratings">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                            class="far fa-star"></i>
+                </li>
+                <li>
+                    <div class="popular">
+                        <div class="popular_image" id="id_9"></div>
+                        <div class="popular_text">
+                            <div>
+                                <h2>Hôtel Tout bleu et Blanc</h2>
+                                <h3>Nuit à partir de <span>68€</span></h3>
+                            </div>
+                            <!-- Comment on fait les étoiles de notation ? -->
+                            <div class="popular_ratings">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="far fa-star"></i>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li>
-                <div class="lodging_suggestion" onclick="">
-                    <div class="lodging_image" id="id_4"></div>
-                    <div class="lodging_description">
-                        <h3>Auberge La Cannebière</h3>
-                    </div>
-                    <div class="lodging_price">
-                        <h4>Nuit à partir de <span>25€</span></h4>
-                    </div>
-                    <!-- Comment on fait les étoiles de notation ? -->
-                    <div class="ratings">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i
-                            class="far fa-star"></i>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="lodging_suggestion" onclick="">
-                    <div class="lodging_image" id="id_5"></div>
-                    <div class="lodging_description">
-                        <h3>Auberge La Cannebière</h3>
-                    </div>
-                    <div class="lodging_price">
-                        <h4>Nuit à partir de <span>25€</span></h4>
-                    </div>
-                    <!-- Comment on fait les étoiles de notation ? -->
-                    <div class="ratings">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                            class="far fa-star"></i>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="lodging_suggestion" onclick="">
-                    <div class="lodging_image" id="id_6"></div>
-                    <div class="lodging_description"><h3>Auberge La Cannebière</h3></div>
-                    <div class="lodging_price"><h4>Nuit à partir de <span>25€</span></h4></div>
-                    <!-- Comment on fait les étoiles de notation ? -->
-                    <div class="ratings">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                    </div>
-                </div>
-            </li>
-        </ul>
-        <div id="afficher_plus">
-            <a href="">
-                <h3>Afficher plus</h3>
-            </a>
-        </div>
-    </section>
-    <section id="most_popular">
-        <header>
-            <h2>Les plus populaires</h2>
-            <a href=""><img src="" alt="" /></a>
-        </header>
-        <ul>
-            <li>
-                <div class="popular">
-                    <img src="" alt="" />
-                    <h3>Auberge La Cannebière</h3>
-                    <h4>Nuit à partir de <span>25€</span></h4>
-                    <!-- Comment on fait les étoiles de notation ? -->
-                </div>
-            </li>
-            <li>
-                <div class="popular">
-                    <img src="" alt="" />
-                    <h3>Auberge La Cannebière</h3>
-                    <h4>Nuit à partir de <span>25€</span></h4>
-                    <!-- Comment on fait les étoiles de notation ? -->
-                </div>
-            </li>
-            <li>
-                <div class="popular">
-                    <img src="" alt="" />
-                    <h3>Auberge La Cannebière</h3>
-                    <h4>Nuit à partir de <span>25€</span></h4>
-                    <!-- Comment on fait les étoiles de notation ? -->
-                </div>
-            </li>
-        </ul>
-    </section>
+                </li>
+            </ul>
+        </section>
+    </div>
     <section id="activities">
         <a name="activities"></a>
         <header>
             <h2>Activités à Marseille</h2>
         </header>
-        <div class="activity">
-            <img src="" alt="" />
-            <h3>Auberge La Cannebière</h3>
-        </div>
-        <div class="activity">
-            <img src="" alt="" />
-            <h3>Auberge La Cannebière</h3>
-        </div>
-        <div class="activity">
-            <img src="" alt="" />
-            <h3>Auberge La Cannebière</h3>
-        </div>
-        <div class="activity">
-            <img src="" alt="" />
-            <h3>Auberge La Cannebière</h3>
-        </div>
-        <div class="activity">
-            <img src="" alt="" />
-            <h3>Auberge La Cannebière</h3>
-        </div>
-        <div class="activity">
-            <img src="" alt="" />
-            <h3>Auberge La Cannebière</h3>
+        <div id="activity_elements">
+            <div class="activity_pattern">
+                <div class="alone">
+                    <div class="activity_suggestion" onclick="">
+                        <div class="alone_image" id="id_10"></div>
+                        <div class="activity_description">
+                            <h2>Vieux Port</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="activity_suggestion" onclick="">
+                        <div class="column_image" id="id_11"></div>
+                        <div class="activity_description">
+                                <h2>Fort de Pomègues</h2>
+                        </div>
+                    </div>
+                    <div class="activity_suggestion" onclick="">
+                        <div class="column_image" id="id_12"></div>
+                        <div class="activity_description">
+                            <h2>Îles du Frioul</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="activity_pattern">
+                <div class="alone">
+                    <div class="activity_suggestion" onclick="">
+                        <div class="alone_image" id="id_13"></div>
+                        <div class="activity_description">
+                            <h2>Parc National des Calanques</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="activity_suggestion" onclick="">
+                        <div class="column_image" id="id_14"></div>
+                        <div class="activity_description">
+                            <h2>Notre-Dame-de-la-Garde</h2>
+                        </div>
+                    </div>
+                    <div class="activity_suggestion" onclick="">
+                        <div class="column_image" id="id_15"></div>
+                        <div class="activity_description">
+                            <h2>Parc Longchamp</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <footer>
         <section id="a_propos">
-            <h3>A propos</h3>
+            <h2>A propos</h3>
             <a>
                 <p>Fonctionnement du site</p>
             </a>
@@ -266,7 +323,7 @@
             </a>
         </section>
         <section id="nos_hebergements">
-            <h3>Nos hébergements</h3>
+            <h2>Nos hébergements</h3>
             <a>
                 <p>Charte qualité</p>
             </a>
@@ -275,7 +332,7 @@
             </a>
         </section>
         <section id="assistance">
-            <h3>Assistance</h3>
+            <h2>Assistance</h3>
             <a>
                 <p>Centre d'aide</p>
             </a>
