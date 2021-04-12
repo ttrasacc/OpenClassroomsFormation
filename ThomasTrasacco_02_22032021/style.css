@@ -171,6 +171,7 @@ a:hover {
 
 .filter:hover {
     cursor: grab;
+    background-color: #f2f2f2;
 }
 
 .filter_icon {
@@ -261,7 +262,7 @@ a:hover {
     margin: 3%;
     height: 30%;
 
-    line-height: 0%;
+    line-height: 50%;
 }
 
 .lodging_suggestion:hover {
